@@ -8,6 +8,7 @@ A small, opinionated collection of [Claude Code](https://claude.com/claude-code)
 | --- | --- |
 | [`iterative-design`](./skills/iterative-design) | For creative or aesthetic output where you can't pre-specify what you want — produces multiple low-fidelity variations early and converges on the user's reactions. |
 | [`reference-interview`](./skills/reference-interview) | Librarian-style clarification before answering vague or open-ended requests. Surfaces the real underlying need rather than the surface question. |
+| [`ship`](./skills/ship) | End-to-end commit-and-push workflow with guards against shipping broken code, blanket-staging, formatter sweeps, fabricated values, and force-resolved pushes. Works in any repo — build systems, scripts, docs, or config. |
 
 ## Install
 
