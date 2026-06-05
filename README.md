@@ -6,6 +6,7 @@ A small, opinionated collection of [Claude Code](https://claude.com/claude-code)
 
 | Skill | What it does |
 | --- | --- |
+| [`ios-version-preflight`](./skills/ios-version-preflight) | Run at the *start* of iOS feature work. Compares the source `MARKETING_VERSION` against the app's live and in-flight App Store Connect versions (via the [`asc`](https://github.com/daneden/App-Store-Connect-CLI) CLI), and — only if the number is already claimed — offers to bump it (patch/minor/major) and land the bump on the default branch, a standalone PR, or the new feature branch. The mirror image of a "verify before done" check. |
 | [`iterative-design`](./skills/iterative-design) | For creative or aesthetic output where you can't pre-specify what you want — produces multiple low-fidelity variations early and converges on the user's reactions. |
 | [`reference-interview`](./skills/reference-interview) | Librarian-style clarification before answering vague or open-ended requests. Surfaces the real underlying need rather than the surface question. |
 | [`ship`](./skills/ship) | End-to-end commit-and-push workflow with guards against shipping broken code, blanket-staging, formatter sweeps, fabricated values, and force-resolved pushes. Works in any repo — build systems, scripts, docs, or config. |
